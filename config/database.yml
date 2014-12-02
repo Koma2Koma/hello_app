@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: hello_app_production
-  username: hello_app
+  # username: hello_app
   password: <%= ENV['HELLO_APP_DATABASE_PASSWORD'] %>
